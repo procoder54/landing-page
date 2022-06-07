@@ -60,13 +60,14 @@ h1 {
   color: #f9faf8;
   background-color: #3882f6;
   padding: 6px 28px;
+  border: 2px solid #1f2937;
   border-radius: 9px;
 }
 
 .placeholder {
-  width: 480px;
-  height: 240px;
-  border: 2px solid saddlebrown;
+  width: 520px;
+  height: 280px;
+  border: 2px solid rgb(248, 107, 6);
   border-radius: 20px;
 }
 
@@ -123,9 +124,40 @@ blockquote {
   margin-left: auto;
 }
 
+#sign-up {
+  width: 70%;
+  margin: 60px auto;
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #e5e7eb;
+  background-color: #3882f6;
+}
+
+.content-sign-up h3 {
+  font-size: 28px;
+}
+
+.content-sign-up p {
+  font-size: 18px;
+}
+
+#sign-up button {
+  color: #e5e7eb;
+  font-size: 18px;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  width: 160px;
+  height: 40px;
+  background-color: #3882f6;
+}
+
 footer {
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 
 footer a {
