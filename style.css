@@ -160,7 +160,11 @@ footer {
   padding: 12px;
 }
 
-footer a {
+a {
   color: white;
   text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
 }
